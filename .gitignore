@@ -1,0 +1,6 @@
+// filepath: .gitignore
+node_modules/
+app/node_modules/
+*.log
+dist/
+build/
