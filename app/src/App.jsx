@@ -1,0 +1,16 @@
+import React from "react";
+import ChatWindow from "./components/ChatWindow";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Chattle IA</h1>
+        <ChatWindow />
+      </header>
+    </div>
+  );
+}
+
+export default App;
