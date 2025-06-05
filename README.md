@@ -1,17 +1,19 @@
 # Chattle IA
 
-**Chattle IA** es una aplicación de escritorio de chat con IA, desarrollada con React y Electron.  
-Permite conversar con un modelo de OpenAI (ChatGPT) de forma sencilla y moderna, con soporte para personalización y almacenamiento local de la clave API.
+**Chattle IA** es una aplicación de escritorio de chat, desarrollada con React y Electron.  
+Funciona completamente **offline** y no depende de servicios externos ni de claves API.  
+El bot responde automáticamente a preguntas frecuentes, cuenta chistes, curiosidades y permite jugar a piedra, papel o tijera.
 
 ---
 
 ## 🚀 Características
 
 - Interfaz moderna y sencilla con toques azul eléctrico.
-- Chat con IA real (OpenAI GPT-3.5/4).
-- La clave de OpenAI **no se almacena ni se comparte**, solo se guarda localmente en tu equipo.
-- Historial de conversación local.
-- 100% código abierto y seguro para tu uso personal.
+- Chat 100% local y privado, sin conexión a internet ni registro.
+- Respuestas automáticas a saludos, preguntas frecuentes, hora, fecha, etc.
+- Chistes y curiosidades aleatorias.
+- Minijuego de piedra, papel o tijera.
+- Código abierto y fácil de personalizar.
 
 ---
 
@@ -31,18 +33,12 @@ Permite conversar con un modelo de OpenAI (ChatGPT) de forma sencilla y moderna,
    npm run start
    ```
 
-3. **Introduce tu clave de OpenAI:**
-
-   - Al abrir la app, pega tu clave de OpenAI en el campo correspondiente.
-   - Puedes obtener una clave aquí: https://platform.openai.com/api-keys
-
 ---
 
-## ⚠️ Seguridad
+## 🔒 Privacidad
 
-- **Nunca subas tu clave de OpenAI a GitHub ni la compartas.**
-- La clave se guarda solo en tu equipo, en el almacenamiento local del navegador/app.
-- Si cambias de equipo, deberás volver a introducir tu clave.
+- No se almacena ni comparte ningún dato fuera de tu equipo.
+- Todo el procesamiento es local.
 
 ---
 
@@ -50,13 +46,14 @@ Permite conversar con un modelo de OpenAI (ChatGPT) de forma sencilla y moderna,
 
 - [React](https://react.dev/)
 - [Electron](https://www.electronjs.org/)
-- [OpenAI API](https://platform.openai.com/docs/api-reference)
 
 ---
 
 ## 📸 Capturas
 
-*(Incluye aquí imágenes de la app en funcionamiento)*
+![Chattle starts](img/1.png)
+![Ejemplo de conversación](img/2.png)
+
 
 ---
 
@@ -66,4 +63,4 @@ MIT
 
 ---
 
-**¡Disfruta conversando con tu propia IA de escritorio!**
+**¡Disfruta conversando y jugando con tu asistente local de escritorio!**
